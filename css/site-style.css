@@ -1,0 +1,79 @@
+.main {
+  background-image: url(../cool-background.jpg);
+}
+
+.inner {
+  margin: auto;
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+
+#header {
+  text-align: center;
+}
+
+#header #name {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.skills {
+  margin-top: 150px;
+}
+
+.skills #title {
+  margin-bottom: 30px;
+}
+
+#skill-box {
+  margin-top: 20px;
+}
+
+.skill-pill {
+  margin-right: 16px;
+  margin-bottom: 16px;
+  border: 1px solid gray;
+  border-radius: 30px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: inline-block
+}
+
+.projects {
+  margin-left: 15px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.projects #title {
+  margin-bottom: 35px;
+}
+
+.project {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.project #project-title {
+  text-align: center;
+  color: black;
+}
+
+.project a:hover {
+  text-decoration: none;
+}
+
+.project > a > img{
+  width: 300px;
+}
+
+.project-image {
+  border: 1px solid transparent;
+}
+
+.project-image:hover {
+  border: 1px solid dodgerblue;
+  box-shadow: 0 0 15px steelblue;
+  transition: all 0.5s ease;
+}
